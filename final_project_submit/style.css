@@ -1,0 +1,555 @@
+#body {
+	font-family: 'Fredoka One', cursive;
+	margin: 0px 10px;
+	font-size: 20px;
+	color: #4f4f4f;
+}
+
+.paleyellow {
+	color: #fff4d9;
+}
+
+.paleHR{
+	border: 2px solid #fff4d9;
+	border-radius: 5px;
+}
+
+.green{
+	color: #8ea604;
+}
+
+.greenHR{
+	border: 2px solid #8ea604;
+	border-radius: 5px;
+}
+
+.purpleHR{
+	border: 2px solid #7678ed;
+	border-radius: 5px;
+}
+
+.yellowHR{
+	border: 2px solid #f5BB00;
+	border-radius: 5px;
+}
+
+.grow {
+	flex-grow: 2;
+}
+
+.nogrow {
+	flex-grow: 1;
+}
+
+.flex {
+	display: flex;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.formTitle{
+	display: inline-flex;
+	align-items: center;
+}
+
+.center {
+	justify-content: center;
+}
+
+.yellow {
+	color: #f5BB00;
+}
+
+.titleFont {
+	font-family: 'Bangers', cursive;
+	font-size: 40px;
+}
+
+.whiteSpace {
+	white-space: pre;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.success {
+	text-decoration-color: #ee6352;
+}
+
+.fail {
+	text-decoration-color: #3d8ad7;
+}
+
+form .redBorder{
+	border: 4px #ee6352 solid;
+}
+
+div .redBorder{
+	border: 4px #ee6352 solid;
+}
+
+.inputBox{
+	border-radius: 5px;
+	border: 2px #8ea604 solid;
+	padding: 5px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+	color: #4f4f4f;
+	background-color: #fff4d9;
+	outline: none;
+}
+
+.inputBoxR{
+	border-radius: 5px;
+	border: 2px #f5BB00 solid;
+	padding: 5px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+	color: #4f4f4f;
+	background-color: #fff4d9;
+	outline: none;
+}
+
+.label {
+	margin: 20px 0px;
+}
+
+.lab {
+	margin: 10px 0px;
+}
+
+#updateEmail{
+	text-align: center;
+	margin: 20px 50px;
+}
+
+#updatePassword{
+	text-align: center;
+	margin: 20px 50px;
+}
+
+#again {
+	margin-bottom: 20px;
+}
+.button{
+	font-family: 'Fredoka One', cursive;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.purpleButton {
+	background-color: #7678ed;
+	border-style: none;
+	outline: none;
+	margin-top: 10px;
+}
+
+.redButton{
+	background-color: #ee6352;
+	border-style: none;
+	outline: none;
+}
+
+.yellowButton{
+	background-color: #f5BB00;
+	border-style: none;
+	outline: none;
+}
+
+.purpleCard{
+	background-color: #4f51b0;
+	border-radius: 15px;
+	padding: 20px;
+	max-width: 400px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.yellowCard{
+	background-color: transparent;
+	/*min-width: 300px;*/
+	width: 90%;
+	max-width: 450px;
+	margin: 20px;
+	height: 300px;
+	perspective: 1000px;
+	margin: 0px auto;
+}
+
+#Profile{
+	text-align: center;
+}
+
+#editInfo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.yellowCardinner{
+	position: relative;
+  	width: 100%;
+  	height: 100%;
+  	transition: transform 2s;
+  	transform-style: preserve-3d;
+}
+
+.yellowCardf, .yellowCardb{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	border-radius: 15px;
+  	-webkit-backface-visibility: hidden; /* Safari */
+  	backface-visibility: hidden;
+  	box-sizing: border-box;
+}
+
+
+.yellowCardf{
+	background-color: #f5BB00;
+
+}
+
+.yellowCardb{
+	background-color: #f5BB00;
+	transform: rotateY(180deg);
+	
+}
+/*#gameHistory table{
+	font-size: 16px;
+}*/
+
+.historyTable{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#deleteRecords{
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.historyTable h3{
+	margin: 0px auto;
+	width: 90%;
+}
+
+.historyTable div{
+	margin-bottom: 30px;
+	flex: 1;
+	text-align: center;
+}
+
+/*.historyTable select{
+	font-family: 'Fredoka One', cursive;
+	font-size: 24px;
+	color: #7678ed;
+
+}*/
+
+.historyTable td{
+	padding: 5px;
+}
+
+.historyTable .username{
+	max-width: 140px;
+}
+
+#loginForm a {
+	background-color: #fff4d9;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color: #4f51b0;
+}
+
+#Game select{
+	font-family: 'Fredoka One', cursive;
+	font-size: 24px;
+	color: #8ea604;
+	background-color: #fff4d9;
+}
+
+#Game h3{
+	text-align: center;
+}
+
+#answerDiv {
+	margin: auto;
+	text-align: center;
+}
+
+#answerDiv input{
+	margin: 10px;
+}
+
+#Game {
+	text-align: center;
+}
+
+
+html, body {
+	background-color: #fff4d9;
+}
+
+h2 {
+	margin: 10px 0px;
+	font-size: 30px;
+}
+
+td {
+	padding: 10px 20px;
+	text-align: center;
+}
+
+table {
+	margin: 0px auto;
+}
+
+#playButton{
+	margin-top: 0px;
+	margin: 0px 10px;
+}
+
+#howToPlay{
+	text-align: center;
+}
+
+#loginForm {
+	background-color: #8ea604;
+	border-radius: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#loginForm > div {
+	margin: 0px auto;
+	text-align: center;
+}
+
+#loginForm > div > div{
+	margin: 20px 0px;
+}
+
+#registerForm {
+	background-color: #f5BB00;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#registerForm > div {
+	text-align: center;
+	position: relative;
+}
+
+#registerInput {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	max-width: 450px;
+	margin: 0px auto;
+
+}
+
+#registerInput > div {
+	margin: 10px 0px;
+}
+
+#loginForm .alignCenter{
+	margin: 0px;
+}
+
+#forms{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: stretch;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+.alignCenter {
+	align-items: center;
+}
+
+.size{
+		flex: 1;
+	}
+
+.card {
+	height:76px;
+	width: 57px;
+	border-radius: 10px;
+	margin: 5px;
+	background-color: transparent;
+  	perspective: 1000px;
+}
+
+.card-inner {
+	position: relative;
+  	width: 100%;
+  	height: 100%;
+  	border-radius: 10px;
+  	text-align: center;
+  	transition: transform 0.8s;
+  	transform-style: preserve-3d;
+}
+
+#Cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 700px;
+	margin: 0px auto;
+}
+
+#color {
+	height: 44px;
+	width: 44px;
+	border-radius: 5px;
+	margin: 0px 10px;
+
+}
+
+#result{
+	text-align: center;
+}
+
+.colorRed {
+	background-color: #ee6352;
+}
+
+.colorBlue {
+	background-color: #3d8ad7;
+}
+
+.colorRedf {
+	background-color: #ee6352;
+	border-radius: 10px;
+}
+
+.colorBluef {
+	background-color: #3d8ad7;
+	border-radius: 10px;
+}
+
+.colorRedb{
+	background-color: #f4a698;
+	transform: rotateY(180deg);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.colorBlueb {
+	background-color: #6ad1dc;
+	transform: rotateY(180deg);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.colorRedf, .colorRedb, .colorBluef, .colorBlueb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.red {
+	color: #ee6352;
+}
+
+.blue {
+	color: #3d8ad7;
+}
+
+.inlineFlex{
+	display: inline-flex;
+}
+
+#Setting {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px auto;
+}
+
+#Stats {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 20px;
+}
+
+.flip {
+	transform: rotateY(180deg);
+}
+
+@media(min-width: 670px){
+	.card {
+		height:100px;
+		width: 75px;
+	}
+}
+
+@media(min-width: 583px){
+
+	#registerInput > div{
+		margin: 10px;
+		min-width: 430px;
+		text-align: right;
+	}
+
+	#loginForm > div > div{
+		min-width: 350px;
+	}
+
+}
+
+@media(min-width: 900px){
+#loginForm {
+		height: 100%;
+	}
+}
+
+@media(min-width: 768px){
+	.yellowCard{
+		width: 50%;
+	}
+
+	.historyTable .username{
+		max-width: none;
+	}
+
+	.card {
+		height:100px;
+		width: 75px;
+	}
+
+
+	
+}
+
+@media(min-width: 992px){
+	.yellowCard{
+		width: 50%;
+		max-width: 100%;
+	}
+
+
+}

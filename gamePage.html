@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Fredoka+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="navbarstyle.css">
+	<title>FLIPPIT</title>
+	<script src="https://kit.fontawesome.com/27db736dc1.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<h1><span class="up">F</span> <span class="up">l</span> <span class="up">i</span> <span class="up">p</span> <span class="up">p</span> <span class="up">i</span> <span class="up">t</span></h1>
+		<span id="arrow" class="purple large left"><i class="fas fa-angle-right"></i></span>
+		<ul id = "nav">
+			<li id="navHome"><a href="homePage.html" class="navbutton" type="button">Home</a></li>
+			<li id="navGame"><a href="gamePage.html" class="navbutton active" type="button">Start Game</a></li>
+			<li id="navProfile"><a href="profilePage.html" class="navbutton" type="button">Profile</a></li>
+			<li id="navLogout"><a href="homePage.html" class="navbutton" type="button">Logout</a></li>
+		</ul>
+	</nav>
+
+	<div id="body">
+		<div id="Question">
+			<h2 class="yellow flex"><div class="grow"><hr class="yellowHR"></div>&nbsp Try a Question? &nbsp<div class="grow"><hr class="yellowHR"></div></h2>
+			<div>
+				<div class="yellowCard">
+					<div class="yellowCardinner">
+						<div class="yellowCardf green">
+							<p>Question</p>
+							<p>Value</p>
+						</div>
+						<div class="yellowCardb green">
+							<p>Answer</p>
+						</div>
+					</div>
+				</div>
+				<div id="answerDiv">
+					<label for="answer" class="hidden">Answer</label>
+					<input type="text" id="answer" name="answer" class="inputBoxR">
+					<button type="submit" id="flippit" class="button purple yellowButton">Flippit!</button>
+				</div>
+			</div>
+		</div>
+		<div id="Game">
+			<h2 class="green flex"><div class="grow"><hr class="greenHR"></div>&nbsp OR NOT &nbsp<div class="grow"><hr class="greenHR"></div></h2>
+			<div id="Setting">
+				<h3>Mode: 
+					<select>
+						<option value="1">Game Type</option>
+						<option value="2">Game Type 2</option>
+					</select>
+				</h3>
+				<div id="color" class="colorRed"></div>
+			</div>
+			<div id="Cards">
+				<div class="flex wrap center">
+				<div class="flex wraps">
+				<div class="card">
+					<div class="card-inner">
+						<div class="f colorRedf" name = "1"></div>
+						<div class="b colorRedb" ></div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-inner">
+						<div class="f colorRedf" name = "2"></div>
+						<div class="b colorRedb"></div>
+					</div>
+				</div>
+				</div>
+				<div class="flex wrap">
+				<div class="card">
+					<div class="card-inner">
+						<div class="f colorRedf" name = "3"></div>
+						<div class="b colorRedb"></div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-inner">
+						<div class="f colorRedf" name = "4"></div>
+						<div class="b colorRedb"></div>
+					</div>
+				</div>
+				</div>
+				</div>
+				<div class="flex wrap center">
+				<div class="flex wrap">
+				<div class="card">
+					<div class="card-inner">
+						<div class="f colorRedf" name = "1"></div>
+						<div class="b colorRedb" ></div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-inner">
+						<div class="f colorRedf" name = "2"></div>
+						<div class="b colorRedb"></div>
+					</div>
+				</div>
+				</div>
+				<div class="flex wrap">
+				<div class="card">
+					<div class="card-inner">
+						<div class="f colorRedf" name = "3"></div>
+						<div class="b colorRedb"></div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-inner">
+						<div class="f colorRedf" name = "4"></div>
+						<div class="b colorRedb"></div>
+					</div>
+				</div>
+				</div>
+				</div>
+			</div>
+			<div id="Stats">
+				<h3><span class="purple">Timer: </span><span id="time"><span id="min">00</span>:<span id="sec">00</span>.<span id="milli">00</span></span></h3>
+				<h3><span class="purple">Flipps: </span><span id="flip">0</span></h3>
+			</div>
+			
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="navbar.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
+</body>
+</html>

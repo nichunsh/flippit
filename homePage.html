@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Fredoka+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="navbarstyle.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Home</title>
+	<script src="https://kit.fontawesome.com/27db736dc1.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<nav>
+		<h1><span class="up">F</span> <span class="up">l</span> <span class="up">i</span> <span class="up">p</span> <span class="up">p</span> <span class="up">i</span> <span class="up">t</span></h1>
+		<span id="arrow" class="purple large left"><i class="fas fa-angle-right"></i></span>
+		<ul id = "nav">
+			<li id="navHome"><a href="homePage.html" class="navbutton active" type="button">Home</a></li>
+			<li id="navGame"><a href="gamePage.html" class="navbutton" type="button">Start Game</a></li>
+			<li id="navProfile"><a href="profilePage.html" class="navbutton" type="button">Profile</a></li>
+			<li id="navLogout"><a href="homePage.html" class="navbutton" type="button">Logout</a></li>
+
+		</ul>
+	</nav>
+
+	<div id="body">
+		<div id="howToPlay">
+			<h2 class="green flex">How to Play &nbsp <div class="grow"><hr class="greenHR"></div></h2>
+			<p>All of the cards are laid face down and it is your job to match them!</p>
+
+			<p>There's only one thing for you to do:<br><span class="purple titleFont">F L I P P I T !</span></p>
+
+
+			<p class="flex wrap center"><span>&nbsp &nbsp<span class="underline success">  If they <span class="red">MATCH</span>, YAY! </span>&nbsp &nbsp </span><span> &nbsp &nbsp<span class="underline fail"> If <span class="blue">NOT</span>, try again! </span>&nbsp &nbsp</span></p>
+			<p>See how fast you can finish each game!</p>
+
+		</div>
+		<div id="leaderboard">
+			<h2 class="green flex">Leaderboards &nbsp <div class="grow"><hr class="greenHR"></div></h2>
+			<table>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Marlene</td>
+						<td>58.203847</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Candice</td>
+						<td>75.20938</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<hr class="greenHR">
+		<div id="forms">
+			<div id="login" class="size">
+				<form id="loginForm">
+					<div>
+						<h2 class="paleyellow formTitle"><div class="grow"><hr class="paleHR"></div>&nbsp Login &nbsp <div class="grow"><hr class="paleHR"></div></h2>
+						<div>
+							<label for="login-username">Username:</label>
+							<input type="text" id="login-username" name="username" class="inputBox">
+						</div>
+						<div>
+							<label for="login-password">Password:</label>
+							<input type="password" id="login-password" name="password" class="inputBox">
+						</div>
+						<button type="submit" class="button purple yellowButton">Login</button>
+						<a href="forgetPage.html" type="button">Forgot Password</a>
+					</div>
+				</form>
+			</div>
+			<br>
+			<div id="register" class="size">
+				<form id="registerForm">
+					<div>
+						<h2 class="green formTitle"><div class="grow"><hr class="greenHR"></div><div class="flex wrap center nogrow"><span>&nbsp New to &nbsp</span><span><span class="purple titleFont">F L I P P I T</span>&nbsp&nbsp? &nbsp </span></div><div class="grow"><hr class="greenHR"></div></h2>
+						<div>
+							<div>
+								<label class="label" for="register-username">Username:</label>
+								<input type="text" id="register-username" name="username" class="inputBoxR">
+							</div>
+							<div>
+								<label class="label" for="register-email">Email Address:</label>
+								<input type="email" id="register-email" name="email" class="inputBoxR">
+							</div>
+							<div>
+								<label class="label" for="register-password">Password:</label>
+								<input type="password" id="register-password" name="password" class="inputBoxR">
+							</div>
+							<div>
+								<label class="label" for="register-passwordConfirmation">Confirm Password:</label>
+								<input type="password" id="register-passwordConfirmation" name="passwordConfirm" class="inputBoxR">
+							</div>
+						</div>
+						<button type="submit" class="button yellow purpleButton">Start Flippin'</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<hr class="yellowHR">
+
+	</div>
+	<script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="navbar.js"></script>
+
+</body>
+</html>
